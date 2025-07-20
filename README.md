@@ -12,8 +12,11 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 
 
 ![Página Inicial](/src/assets/imagens/fotos/inicio.png)
+
 ![Projetos](/src/assets/imagens/fotos/projetos.png)
+
 ![Sobre](/src/assets/imagens/fotos/sobre.png)
+
 ![Contato](/src/assets/imagens/fotos/contato.png)
 
 ---
