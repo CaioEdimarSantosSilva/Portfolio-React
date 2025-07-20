@@ -23,12 +23,6 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 
 ---
 
-## Demonstração
-Acesse a versão publicada:  
-🔗 [https://seu-usuario.github.io/Portfolio-React](#) *(substitua pelo link real)*
-
----
-
 ## Tecnologias utilizadas
 - React (versão X.X)
 - React Router
@@ -48,7 +42,6 @@ Listar versões e dependências ajuda tanto colaboradores quanto recrutadores :c
 
 ---
 
-## Como executar localmente
 
 1. Clone este repositório  
 ```bash
