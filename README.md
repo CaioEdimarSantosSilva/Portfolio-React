@@ -13,7 +13,7 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 | Tecnologia  | Descrição                             |
 |-------------|----------------------------------------|
 | React       | Biblioteca para criação da interface   |
-| Node.js     | Ambiente de execução JavaScript no back-end *(se usado para API ou servidor)* |
+| Node.js     | Ambiente de execução JavaScript no back-end |
 | JavaScript  | Linguagem principal do projeto         |
 | CSS         | Estilização personalizada              |
 | HTML        | Estrutura básica da página             |
