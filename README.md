@@ -14,13 +14,13 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 ![Página Inicial](./assets/imagens/fotos/inicio.png)
 
 ### ⚙️ Projetos
-![Página Inicial](./assets/imagens/fotos/projetos.png)
+![Projetos](./assets/imagens/fotos/projetos.png)
 
 ### 👤 Sobre 
-![Página Inicial](./assets/imagens/fotos/sobre.png)
+![Sobre](./assets/imagens/fotos/sobre.png)
 
 ### 💼 Contato
-![Página Inicial](./assets/imagens/fotos/contato.png)
+![Contato](./assets/imagens/fotos/contato.png)
 
 ---
 ## Tecnologias utilizadas
