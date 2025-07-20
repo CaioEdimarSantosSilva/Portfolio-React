@@ -54,7 +54,7 @@ function ThemeToggle() {
 export default function Header() {
   return (
     <header>
-      <a className="logo" href="/">
+      <a className="logo" href="#inicio">
         <img className="simbolo" src={logo} alt="logo" />
         <img className="texto_logo" src={texto} alt="logo texto" />
       </a>

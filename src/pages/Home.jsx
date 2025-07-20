@@ -1,15 +1,29 @@
 import React from "react";
 import "../styles/home.css";
+import "../styles/projetos.css";
 import banner from "../assets/imagens/logos/banner.png";
 import logo_lampada from "../assets/imagens/logos/logo_lampada_sem_fundo.png";
 import sol from "../assets/imagens/logos/sol_sem_fundo.png";
 import engrenagem from "../assets/imagens/logos/engrenagem_sem_fundo.png";
+import ProjetoCard from "../components/ProjetoCard";
+import { projetos } from "../data/projetos";
 
 export default function Home() {
   return (
     <main>
-      <section class="banner">
+      <section id="inicio" class="banner">
         <img src={banner} alt="banner" />
+      </section>
+
+      <section id="projetos" className="projetos">
+        <div className="projetos-container">
+          <h1>Projetos</h1>
+          <div className="projetos-grid">
+            {projetos.map(projeto => (
+              <ProjetoCard key={projeto.id} projeto={projeto} />
+            ))}
+          </div>
+        </div>
       </section>
 
       <section id="sobre" class="sobre">
@@ -53,8 +67,6 @@ export default function Home() {
         </div>
 
       </section>
-
-      <section className="projetos"></section>
     </main>
   );
 }
