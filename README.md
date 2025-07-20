@@ -10,16 +10,10 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 ---
 ## 🖼 Exemplos visuais
 
-### Inico
+
 ![Página Inicial](/src/assets/imagens/fotos/inicio.png)
-
-### Projetos
 ![Projetos](/src/assets/imagens/fotos/projetos.png)
-
-### Sobre 
 ![Sobre](/src/assets/imagens/fotos/sobre.png)
-
-### Contato
 ![Contato](/src/assets/imagens/fotos/contato.png)
 
 ---
