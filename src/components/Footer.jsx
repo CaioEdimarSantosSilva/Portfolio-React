@@ -45,25 +45,25 @@ export default function Footer() {
     {
       icon: <IconMail />,
       label: 'Email',
-      href: 'mailto:caio@exemplo.com',
+      href: 'mailto:caioformula1@hotmail.com',
       external: false
     },
     {
       icon: <IconGithub />,
       label: 'Github',
-      href: 'https://github.com/caiosilva',
+      href: 'https://github.com/CaioEdimarSantosSilva',
       external: true
     },
     {
       icon: <IconLinkedin />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/caiosilva',
+      href: 'https://www.linkedin.com/in/caio-edimar-santos-silva-93a27027a/',
       external: true
     },
     {
       icon: <IconWhatsapp />,
       label: 'WhatsApp',
-      href: 'https://wa.me/5511999999999',
+      href: 'https://wa.me/5513982000527',
       external: true
     }
   ];

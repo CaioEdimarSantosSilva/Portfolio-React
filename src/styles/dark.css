@@ -62,11 +62,6 @@ body.dark header {
   background-color: #1f2229;
 }
 
-body.dark .sobre_intro {
-  background-color: #28313f;
-  border: 3px solid #3e4c62;
-    box-shadow: 3px 3px 10px #3e4c62;
-}
 
 body.dark .menu {
   position: relative;

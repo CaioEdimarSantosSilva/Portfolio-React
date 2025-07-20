@@ -16,9 +16,11 @@
 }
 
 .sobre_intro {
+    background: linear-gradient(135deg, #1c3d70 0%, #2a5298 100%);
+    border: 3px solid #2a5298;
+    box-shadow: 3px 3px 10px #2a5298;
     display: flex;
-    border: 3px solid #eee;
-    box-shadow: 3px 3px 10px #ddd;
+
     border-radius: 16px;
     padding: 20px;
     margin-top: 100px;
@@ -34,6 +36,10 @@
 .sobre_intro_conteudo>h1 {
     color: #ffd00e;
     margin-bottom: 15px;
+}
+
+.sobre_intro_conteudo p {
+    color: white;
 }
 
 .sobre_softskills,
@@ -86,6 +92,7 @@
     margin-bottom: 10px;
 
 }
+
 .sobre_softskills .sobre_conteudo h1 {
     color: #ffd00e;
 }
@@ -94,8 +101,3 @@
 .sobre_softskills .sobre_conteudo p {
     color: #ffd00e;
 }
-
-
-
-
-
