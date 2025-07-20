@@ -14,7 +14,7 @@ export default function Navegation( {layout} ) {
         <a className="menu" href="/">
           Projetos
         </a>
-        <a className="menu" href="/">
+        <a className="menu" href="#contato">
           Contato
         </a>
       </nav>

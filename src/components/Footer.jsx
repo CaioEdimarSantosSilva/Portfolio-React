@@ -69,7 +69,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="footer">
+    <footer id="contato" className="footer">
       <section className="conteudo_footer">
         <div className="conteudo_logo_footer">
           <div className="logo_footer">
