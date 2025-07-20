@@ -10,17 +10,17 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 ---
 ## 🖼 Exemplos visuais
 
-### 📌 Inico
+### Inico
 ![Página Inicial](/src/assets/imagens/fotos/inicio.png)
 
-### ⚙️ Projetos
-![Projetos](./assets/imagens/fotos/projetos.png)
+### Projetos
+![Projetos](/src/assets/imagens/fotos/projetos.png)
 
-### 👤 Sobre 
-![Sobre](./assets/imagens/fotos/sobre.png)
+### Sobre 
+![Sobre](/src/assets/imagens/fotos/sobre.png)
 
-### 💼 Contato
-![Contato](./assets/imagens/fotos/contato.png)
+### Contato
+![Contato](/src/assets/imagens/fotos/contato.png)
 
 ---
 ## Tecnologias utilizadas
