@@ -1,11 +1,11 @@
 # Portfolio React
 
-🎨 Meu portfólio pessoal criado com React para apresentar projetos, habilidades e contato de maneira profissional.
+Meu portfólio pessoal criado com React para apresentar projetos, habilidades e contato de maneira profissional.
 
 ---
 
 ## Sobre
-Este projeto serve como uma vitrine para meus principais trabalhos e habilidades em desenvolvimento front‑end. Foi feito para reforçar meu perfil como desenvolvedor React, adotando boas práticas de código, responsividade e UX.
+Este projeto serve como uma vitrine para meus principais trabalhos e habilidades em desenvolvimento front‑end. Foi feito para reforçar meu perfil como desenvolvedor React, adotando boas práticas de código, responsividade.
 
 ---
 ## Tecnologias utilizadas
