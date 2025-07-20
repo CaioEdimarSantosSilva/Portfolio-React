@@ -8,6 +8,21 @@ Meu portfólio pessoal criado com React para apresentar projetos, habilidades e 
 Este projeto serve como uma vitrine para meus principais trabalhos e habilidades em desenvolvimento front‑end. Foi feito para reforçar meu perfil como desenvolvedor React, adotando boas práticas de código, responsividade.
 
 ---
+## 🖼 Exemplos visuais
+
+### 📌 Inico
+![Página Inicial](./assets/imagens/fotos/inicio.png)
+
+### ⚙️ Projetos
+![Página Inicial](./assets/imagens/fotos/projetos.png)
+
+### 👤 Sobre 
+![Página Inicial](./assets/imagens/fotos/sobre.png)
+
+### 💼 Contato
+![Página Inicial](./assets/imagens/fotos/contato.png)
+
+---
 ## Tecnologias utilizadas
 
 | Tecnologia  | Descrição                             |
