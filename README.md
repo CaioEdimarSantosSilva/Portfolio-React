@@ -11,7 +11,7 @@ Este projeto serve como uma vitrine para meus principais trabalhos e habilidades
 ## 🖼 Exemplos visuais
 
 ### 📌 Inico
-![Página Inicial](../assets/imagens/fotos/inicio.png)
+![Página Inicial](/src/assets/imagens/fotos/inicio.png)
 
 ### ⚙️ Projetos
 ![Projetos](./assets/imagens/fotos/projetos.png)
