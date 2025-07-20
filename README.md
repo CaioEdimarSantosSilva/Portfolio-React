@@ -4,31 +4,19 @@
 
 ---
 
-## 📌 Sumário
-- [Sobre](#sobre)
-- [Demonstração](#demonstração)
-- [Tecnologias utilizadas](#tecnologias-utilizadas)
-- [Funcionalidades](#funcionalidades)
-- [Como executar localmente](#como-executar-localmente)
-- [Deploy](#deploy)
-- [Estrutura do projeto](#estrutura-do-projeto)
-- [Melhorias futuras](#melhorias-futuras)
-- [Contato](#contato)
-- [Licença](#licença)
-
----
-
 ## Sobre
 Este projeto serve como uma vitrine para meus principais trabalhos e habilidades em desenvolvimento front‑end. Foi feito para reforçar meu perfil como desenvolvedor React, adotando boas práticas de código, responsividade e UX.
 
 ---
-
 ## Tecnologias utilizadas
-- React (versão X.X)
-- React Router
-- A biblioteca de estilo escolhida (ex: Styled Components / Tailwind CSS)
-- Outras: Axios, React Icons, etc.  
-Listar versões e dependências ajuda tanto colaboradores quanto recrutadores :contentReference[oaicite:1]{index=1}.
+
+| Tecnologia  | Descrição                             |
+|-------------|----------------------------------------|
+| React       | Biblioteca para criação da interface   |
+| Node.js     | Ambiente de execução JavaScript no back-end *(se usado para API ou servidor)* |
+| JavaScript  | Linguagem principal do projeto         |
+| CSS         | Estilização personalizada              |
+| HTML        | Estrutura básica da página             |
 
 ---
 
@@ -41,9 +29,3 @@ Listar versões e dependências ajuda tanto colaboradores quanto recrutadores :c
 - Navegação suave entre seções, tema claro/escuro etc.
 
 ---
-
-
-1. Clone este repositório  
-```bash
-git clone https://github.com/CaioEdimarSantosSilva/Portfolio-React.git
-cd Portfolio-React
