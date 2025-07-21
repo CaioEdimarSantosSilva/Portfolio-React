@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.c07dbc30.css",
+    "main.js": "/Portfolio-React/static/js/main.67ee0778.js",
+    "static/media/peos_pingado.png": "/Portfolio-React/static/media/peos_pingado.c1963fc28c468af6ca74.png",
+    "static/media/banner.png": "/Portfolio-React/static/media/banner.ceda0e3d5f66b7d1060d.png",
+    "static/media/RE_assistencia.png": "/Portfolio-React/static/media/RE_assistencia.ea5f0f56b57acb6b0dfe.png",
+    "static/media/code_html.png": "/Portfolio-React/static/media/code_html.e9ad7664b9c5a1d8d935.png",
+    "static/media/sol_sem_fundo.png": "/Portfolio-React/static/media/sol_sem_fundo.a5d28ca33c1be9d754d8.png",
+    "static/media/engrenagem_sem_fundo.png": "/Portfolio-React/static/media/engrenagem_sem_fundo.0c23eb2049e088a81d33.png",
+    "static/media/LeagueSpartan-Bold.ttf": "/Portfolio-React/static/media/LeagueSpartan-Bold.83e2e004463051352833.ttf",
+    "static/media/LeagueSpartan-SemiBold.ttf": "/Portfolio-React/static/media/LeagueSpartan-SemiBold.99beeea1958554d708d0.ttf",
+    "static/media/LeagueSpartan-Regular.ttf": "/Portfolio-React/static/media/LeagueSpartan-Regular.40a18f941a296b07f398.ttf",
+    "static/media/texto.png": "/Portfolio-React/static/media/texto.37f6ec75d2feeff598b9.png",
+    "static/media/simbolo.png": "/Portfolio-React/static/media/simbolo.d793b7effeabf65082b4.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.c07dbc30.css.map": "/Portfolio-React/static/css/main.c07dbc30.css.map",
+    "main.67ee0778.js.map": "/Portfolio-React/static/js/main.67ee0778.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c07dbc30.css",
+    "static/js/main.67ee0778.js"
+  ]
+}
