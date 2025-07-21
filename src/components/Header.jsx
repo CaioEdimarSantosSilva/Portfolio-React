@@ -5,7 +5,6 @@ import logo from "../assets/imagens/logos/simbolo.png";
 import texto from "../assets/imagens/logos/texto.png";
 import Navegation from "./Navegation";
 import { Link } from "react-scroll";
-
 import { useState, useEffect } from "react";
 
 function ThemeToggle() {
@@ -61,17 +60,40 @@ function ThemeToggle() {
 }
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header>
       <Link to="inicio" smooth={true} duration={500} className="logo">
         <img className="simbolo" src={logo} alt="logo" />
         <img className="texto_logo" src={texto} alt="logo texto" />
       </Link>
-      <Navegation/>
+      <Navegation />
       <div>
-        <a className="menu_celular">MENU</a>
+        <div className="menu_celular" onClick={toggleMenu}>
+          <h3>Menu</h3>
+          <div
+            className={`menu_celular_content ${isMenuOpen ? "open" : ""}`}
+            onClick={closeMenu}
+          >
+            <Navegation layout={"column"} />
+            <div className="tema_menu_celular">
+              <ThemeToggle />
+            </div>
+          </div>
+        </div>
       </div>
-      <ThemeToggle /> 
+      <div className="tema_menu">
+        <ThemeToggle />
+      </div>
     </header>
   );
 }

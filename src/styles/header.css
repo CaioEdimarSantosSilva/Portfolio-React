@@ -19,10 +19,10 @@ header {
   margin-bottom: 7px;
   transition: transform 0.6s ease;
 }
-.logo{
+
+.logo {
   cursor: pointer;
 }
-
 
 .logo .simbolo {
   animation: girar 12s linear infinite;
@@ -37,7 +37,7 @@ header {
   }
 }
 
-.logo:hover .simbolo{
+.logo:hover .simbolo {
     padding: 0.5%;
 }
 
@@ -45,7 +45,7 @@ header {
   width: 250px;
   margin: 0;
   padding: 0;
- margin-left: 5px;
+  margin-left: 5px;
 }
 
 .menu_celular {
@@ -53,6 +53,30 @@ header {
   color: #ffd00e;
   font-size: 1.4em;
   cursor: pointer;
+  position: relative;
+}
+
+.menu_celular_content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1001;
+  min-width: 200px;
+}
+
+.menu_celular_content.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 @media (max-width: 768px) {
@@ -63,5 +87,28 @@ header {
         display: block;
         margin-left: 10px;
     }
-    
+    .navegacao {
+        display: none;
+    }
+    .tema_menu{
+        display: none;
+    }
+    .menu_celular_content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+}
+
+/* Tema escuro */
+.dark header {
+    background-color: #1a1a1a;
+}
+
+.dark .menu_celular_content {
+    background: #2a2a2a;
+    color: white;
+    border-color: #444;
 }

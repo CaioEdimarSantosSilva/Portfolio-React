@@ -217,7 +217,6 @@
 
 
 
-
 @media (max-width: 768px) {
   .conteudo_footer {
     grid-template-columns: 1fr;
@@ -238,14 +237,15 @@
   }
   .navegation_column {
     width: 100%;
+    
   }
-  .conteudo_contato_footer {
-    width: 100%;
 
-  }
-  .lista_contatos{
-    width: 100%;
-    text-align: center;
 
-  }
+  .lista_contatos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
 }

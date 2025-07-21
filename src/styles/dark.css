@@ -62,7 +62,6 @@ body.dark header {
   background-color: #1f2229;
 }
 
-
 body.dark .menu {
   position: relative;
   text-decoration: none;
@@ -106,5 +105,23 @@ body.dark .navegation_column .menu:hover::after {
 }
 
 body.dark .navegation_column a {
-  color: #ffd00e;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .toggle-container {
+    width: 50px;
+    height: 20px;
+  }
+
+  .toggle-slider {
+    width: 12px;
+    height: 12px;
+
+  }
+
+  .toggle-slider.dark {
+    left: 31px;
+
+  }
 }
