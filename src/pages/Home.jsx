@@ -2,11 +2,11 @@ import React from "react";
 import "../styles/home.css";
 import "../styles/projetos.css";
 import banner from "../assets/imagens/logos/banner.png";
-import simbolo from "../assets/imagens/logos/simbolo.png";
 import sol from "../assets/imagens/logos/sol_sem_fundo.png";
 import engrenagem from "../assets/imagens/logos/engrenagem_sem_fundo.png";
 import ProjetoCard from "../components/ProjetoCard";
 import { projetos } from "../data/projetos";
+
 
 export default function Home() {
   return (
@@ -74,6 +74,7 @@ export default function Home() {
         </div>
 
       </section>
+
     </main>
   );
 }

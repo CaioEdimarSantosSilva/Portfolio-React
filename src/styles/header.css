@@ -19,6 +19,9 @@ header {
   margin-bottom: 7px;
   transition: transform 0.6s ease;
 }
+.logo{
+  cursor: pointer;
+}
 
 
 .logo .simbolo {
@@ -45,4 +48,20 @@ header {
  margin-left: 5px;
 }
 
+.menu_celular {
+  display: none;
+  color: #ffd00e;
+  font-size: 1.4em;
+  cursor: pointer;
+}
 
+@media (max-width: 768px) {
+    .texto_logo {
+        display: none;
+    }
+    .menu_celular {
+        display: block;
+        margin-left: 10px;
+    }
+    
+}

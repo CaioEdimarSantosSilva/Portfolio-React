@@ -16,6 +16,7 @@
     color: #ffd00e;
     font-size: 1.4em;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 .menu::after {
@@ -34,4 +35,14 @@
 
 .menu:hover::after {
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .navegation {
+        display: none;
+    }
+    .navegation_column {
+        display: flex;
+    }
+    
 }
