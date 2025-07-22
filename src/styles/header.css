@@ -118,11 +118,30 @@ header {
     width: 200px;
   }
 }
+@media (max-width: 367px) {
+  .simbolo {
+    width: 40px;
+  }
+  .texto_logo {
+    width: 160px;
+  }
+  .menu_celular {
+    font-size: 2em;
+    margin-top: 10px;
+  }
+  .menu_celular:hover {
+    font-size: 2.2em;
+  }
+}
+@media (max-width: 305px) {
 
+  .texto_logo {
+    display: none;
 
+}
+}
 
 .dark .menu_celular_content {
   background: linear-gradient(135deg, #1c3d70 0%, #2a5298 100%);
   color: white;
-  border-color: #444;
 }
