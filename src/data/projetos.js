@@ -52,13 +52,4 @@ export const projetos = [
     linkAo: "https://caioedimarsantossilva.github.io/peoes_pingado/",
     tecnologias: ["React", "Node.js", "MongoDB"]
   },
-  {
-    id: 6,
-    titulo: "Exemplo 06",
-    resumo: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imagem: teste,
-    repositorio: "https://github.com/CaioEdimarSantosSilva/Portfolio-React",
-    linkAo: "https://caioedimarsantossilva.github.io/peoes_pingado/",
-    tecnologias: ["React", "Node.js", "MongoDB"]
-  }
 ];
