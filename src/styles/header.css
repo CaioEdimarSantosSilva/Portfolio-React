@@ -110,6 +110,14 @@ header {
   
 }
 }
+@media (max-width: 423px) {
+  .simbolo {
+    width: 50px;
+  }
+  .texto_logo {
+    width: 200px;
+  }
+}
 
 
 
