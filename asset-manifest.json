@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.bb942b25.css",
-    "main.js": "/Portfolio-React/static/js/main.b8f94ae7.js",
+    "main.js": "/Portfolio-React/static/js/main.25200050.js",
     "static/media/peos_pingado.png": "/Portfolio-React/static/media/peos_pingado.c1963fc28c468af6ca74.png",
     "static/media/banner.png": "/Portfolio-React/static/media/banner.ceda0e3d5f66b7d1060d.png",
     "static/media/RE_assistencia.png": "/Portfolio-React/static/media/RE_assistencia.ea5f0f56b57acb6b0dfe.png",
@@ -15,10 +15,10 @@
     "static/media/simbolo.png": "/Portfolio-React/static/media/simbolo.d793b7effeabf65082b4.png",
     "index.html": "/Portfolio-React/index.html",
     "main.bb942b25.css.map": "/Portfolio-React/static/css/main.bb942b25.css.map",
-    "main.b8f94ae7.js.map": "/Portfolio-React/static/js/main.b8f94ae7.js.map"
+    "main.25200050.js.map": "/Portfolio-React/static/js/main.25200050.js.map"
   },
   "entrypoints": [
     "static/css/main.bb942b25.css",
-    "static/js/main.b8f94ae7.js"
+    "static/js/main.25200050.js"
   ]
 }
