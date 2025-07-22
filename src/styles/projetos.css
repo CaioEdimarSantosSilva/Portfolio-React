@@ -35,23 +35,6 @@
   justify-content: center;
 }
 
-/* Breakpoint para 3 colunas em tablets */
-@media (max-width: 1024px) {
-  .projetos-grid {
-    grid-template-columns: repeat(3, minmax(280px, 1fr));
-    gap: 25px;
-  }
-}
-
-/* Breakpoint para 2 colunas em tablets pequenos */
-@media (max-width: 768px) {
-  .projetos-grid {
-    grid-template-columns: repeat(2, minmax(280px, 1fr));
-    gap: 20px;
-    padding: 0 15px;
-  }
-}
-
 /* Card do Projeto */
 .projeto-card {
   background: linear-gradient(135deg, #1c3d70 0%, #2a5298 100%);
@@ -157,14 +140,14 @@
 }
 
 /* Responsividade */
-@media (max-width: 1024px) {
+@media (max-width: 1660px) {
   .projetos-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1250px) {
   .projetos {
     padding: 60px 0;
   }
@@ -192,7 +175,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 645px) {
   .projetos-container h2 {
     font-size: 2rem;
   }

@@ -8,13 +8,13 @@
 }
 
 .footer::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  
+
   z-index: 1;
 }
 
@@ -85,7 +85,7 @@
   color: #ffffff;
   opacity: 0.8;
   font-size: 0.9rem;
-} 
+}
 
 /* Seção Navegação */
 .conteudo_navegacao_footer {
@@ -103,12 +103,11 @@
   padding-bottom: 0.5rem;
 }
 
-.navegation_column{
+.navegation_column {
   width: 40%;
 }
-.navegation_column a{
+.navegation_column a {
   margin: 0.3em 0;
- 
 }
 
 /* Seção Contatos */
@@ -216,19 +215,18 @@
 }
 
 
-
-@media (max-width: 768px) {
+@media (max-width: 1175px) {
   .conteudo_footer {
     grid-template-columns: 1fr;
     padding: 2rem 1rem;
     text-align: center;
   }
-  
+
   .copyright_content {
     flex-direction: column;
     text-align: center;
   }
-  
+
   .skills_grid {
     justify-content: center;
   }
@@ -237,15 +235,17 @@
   }
   .navegation_column {
     width: 100%;
-    
   }
 
-
   .lista_contatos {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  text-align: center;
-}
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .copyright_content p{
+    font-size: 0.7rem;
+  }
 }

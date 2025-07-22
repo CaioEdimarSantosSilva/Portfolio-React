@@ -38,7 +38,7 @@
 footer .navegation_column a {
   color: white;
 }
-@media (max-width: 768px) {
+@media (max-width: 857px) {
   .navegation {
     display: none;
   }

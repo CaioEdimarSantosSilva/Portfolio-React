@@ -1,15 +1,15 @@
 header {
-    display: flex;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    z-index: 1000;
-    align-items: center;
-    justify-content: space-around;
-    height: 85px;
+  display: flex;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+  align-items: center;
+  justify-content: space-around;
+  height: 85px;
 }
 
 .simbolo {
@@ -38,7 +38,7 @@ header {
 }
 
 .logo:hover .simbolo {
-    padding: 0.5%;
+  padding: 0.5%;
 }
 
 .texto_logo {
@@ -51,10 +51,16 @@ header {
 .menu_celular {
   display: none;
   color: #ffd00e;
-  font-size: 1.4em;
+  font-size: 2.5em;
   cursor: pointer;
   position: relative;
 }
+.menu_celular:hover {
+  color: #3b82f6;
+  font-size: 3em;
+
+}
+
 
 .menu_celular_content {
   position: absolute;
@@ -79,36 +85,36 @@ header {
   transform: translateY(0);
 }
 
-@media (max-width: 768px) {
-    .texto_logo {
-        display: none;
-    }
-    .menu_celular {
-        display: block;
-        margin-left: 10px;
-    }
-    .navegacao {
-        display: none;
-    }
-    .tema_menu{
-        display: none;
-    }
-    .menu_celular_content{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+@media (max-width: 857px) {
+  .menu_celular {
+    display: block;
+    margin-left: 10px;
+  }
+ 
+  .tema_menu {
+    display: none;
+  }
+  .menu_celular_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .simbolo {
+    margin-top: 15px;
+    width: 60px;
+  }
+  .menu_celular_content .navegation_column {
+  font-size: 0.5em;
+  
+}
 }
 
-/* Tema escuro */
-.dark header {
-    background-color: #1a1a1a;
-}
+
 
 .dark .menu_celular_content {
-    background: #2a2a2a;
-    color: white;
-    border-color: #444;
+  background: linear-gradient(135deg, #1c3d70 0%, #2a5298 100%);
+  color: white;
+  border-color: #444;
 }

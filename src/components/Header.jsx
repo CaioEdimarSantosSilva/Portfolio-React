@@ -1,25 +1,13 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/header.css";
 import "../styles/dark.css";
 import logo from "../assets/imagens/logos/simbolo.png";
 import texto from "../assets/imagens/logos/texto.png";
 import Navegation from "./Navegation";
 import { Link } from "react-scroll";
-import { useState, useEffect } from "react";
 
-function ThemeToggle() {
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    const currentTheme = document.body.classList.contains("dark");
-    setIsDark(currentTheme);
-  }, []);
-
-  const toggleTheme = () => {
-    document.body.classList.toggle("dark");
-    setIsDark(!isDark);
-  };
-
+// COMPONENTE ThemeToggle MODIFICADO PARA RECEBER PROPS
+function ThemeToggle({ isDark, toggleTheme }) {
   return (
     <button
       className="theme-toggle"
@@ -59,8 +47,16 @@ function ThemeToggle() {
   );
 }
 
+// COMPONENTE PRINCIPAL Header COM ESTADO COMPARTILHADO
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDark, setIsDark] = useState(false);
+
+  // Quando o componente carregar, verifica se o tema está ativo
+  useEffect(() => {
+    const currentTheme = document.body.classList.contains("dark");
+    setIsDark(currentTheme);
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -68,6 +64,11 @@ export default function Header() {
 
   const closeMenu = () => {
     setIsMenuOpen(false);
+  };
+
+  const toggleTheme = () => {
+    document.body.classList.toggle("dark");
+    setIsDark(!isDark);
   };
 
   return (
@@ -79,20 +80,20 @@ export default function Header() {
       <Navegation />
       <div>
         <div className="menu_celular" onClick={toggleMenu}>
-          <h3>Menu</h3>
+          <h3>{isMenuOpen ? "🗙" : "☰"}</h3>
           <div
             className={`menu_celular_content ${isMenuOpen ? "open" : ""}`}
             onClick={closeMenu}
           >
             <Navegation layout={"column"} />
             <div className="tema_menu_celular">
-              <ThemeToggle />
+              <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
             </div>
           </div>
         </div>
       </div>
       <div className="tema_menu">
-        <ThemeToggle />
+        <ThemeToggle isDark={isDark} toggleTheme={toggleTheme} />
       </div>
     </header>
   );

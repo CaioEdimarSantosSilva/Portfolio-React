@@ -5,6 +5,7 @@ import './styles/fonts.css';
 import Header from './components/Header.jsx';
 import Main from './pages/Home.jsx';
 import Footer from './components/Footer.jsx';
+import Carregamento from './components/Carregamento.jsx';
 
 
 
@@ -15,5 +16,6 @@ root.render(
     <Header />
     <Main />
     <Footer />
+    <Carregamento />
   </React.StrictMode>
 );
