@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/footer.css";
 import logo from "../assets/imagens/logos/simbolo.png";
 import Navegation from "./Navegation";
+import { FaFolder } from "react-icons/fa";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -159,7 +160,7 @@ export default function Footer() {
               target="_blank"
               className="link_contato"
               alt="Repositório do Portfólio" rel="noreferrer"
-            >🗁 Código
+            ><FaFolder/> Código
             </a>
           </div>
         </div>

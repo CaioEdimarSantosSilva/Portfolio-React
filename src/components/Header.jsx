@@ -5,6 +5,7 @@ import logo from "../assets/imagens/logos/simbolo.png";
 import texto from "../assets/imagens/logos/texto.png";
 import Navegation from "./Navegation";
 import { Link } from "react-scroll";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 // COMPONENTE ThemeToggle MODIFICADO PARA RECEBER PROPS
 function ThemeToggle({ isDark, toggleTheme }) {
@@ -80,7 +81,7 @@ export default function Header() {
       <Navegation />
       <div>
         <div className="menu_celular" onClick={toggleMenu}>
-          <h3>{isMenuOpen ? "🗙" : "☰"}</h3>
+          <h3>{isMenuOpen ? <FaTimes/> : <FaBars/>}</h3>
           <div
             className={`menu_celular_content ${isMenuOpen ? "open" : ""}`}
             onClick={closeMenu}
