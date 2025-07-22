@@ -10,9 +10,9 @@ export default function Carregamento() {
   const forceRemove = setTimeout(() => {
     if (overlay) overlay.classList.add("hidden");
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, 2000);
+  }, 1000);
 
-  const MIN_LOADING_TIME = 300;
+  const MIN_LOADING_TIME = 200;
   const startTime = performance.now();
 
   const onLoad = () => {
