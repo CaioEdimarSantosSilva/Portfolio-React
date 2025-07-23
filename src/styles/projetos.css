@@ -1,11 +1,8 @@
-/* Adicione este CSS ao seu arquivo home.css */
 
-/* Seção de Projetos */
 .projetos {
   padding: 100px 0;
   width: 100%;
-  /* background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
-  min-height: 100vh;
+  
 }
 
 .projetos-container {
@@ -17,7 +14,7 @@
 .projetos-container h1 {
   text-align: center;
   font-size: 3.5rem;
-  margin-bottom: 60px;
+
   color: #3b82f6;
   font-weight: 700;
   position: relative;
@@ -27,16 +24,18 @@
 
 /* Grid de Projetos */
 .projetos-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(360px, 1fr));
+  display: flex;
   gap: 30px;
-  max-width: 1400px; /* aumente se quiser mais espaço */
-  margin: 0 auto;
   justify-content: center;
+  padding: 0 15px;
+  margin-top: 20px;
+  
 }
+
 
 /* Card do Projeto */
 .projeto-card {
+  max-width: 400px;
   background: linear-gradient(135deg, #1c3d70 0%, #2a5298 100%);
   border-radius: 15px;
   overflow: hidden;
@@ -139,13 +138,6 @@
   margin: 0;
 }
 
-/* Responsividade */
-@media (max-width: 1660px) {
-  .projetos-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-  }
-}
 
 @media (max-width: 1250px) {
   .projetos {
@@ -156,13 +148,6 @@
     font-size: 2.5rem;
     margin-bottom: 40px;
   }
-  
-  .projetos-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 0 15px;
-  }
-  
   .projeto-links {
     flex-direction: column;
     align-items: center;
@@ -174,17 +159,19 @@
     font-size: 0.85rem;
   }
 }
+@media (max-width: 1000px) {
+  .projetos-grid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+}
 
 @media (max-width: 645px) {
   .projetos-container h2 {
     font-size: 2rem;
   }
-  
-  .projetos-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-  }
-  
   .projeto-card {
     margin: 0 auto;
     max-width: 400px;

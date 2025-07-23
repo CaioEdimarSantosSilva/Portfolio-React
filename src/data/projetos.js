@@ -24,32 +24,5 @@ export const projetos = [
     repositorio: "https://github.com/CaioEdimarSantosSilva/R.E-Assistencia",
     linkAo: "https://caioedimarsantossilva.github.io/R.E-Assistencia/index.html",
     tecnologias: ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    id: 3,
-    titulo: "Exemplo 03",
-    resumo: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imagem: teste,
-    repositorio: "https://github.com/CaioEdimarSantosSilva/Portfolio-React",
-    linkAo: "https://caioedimarsantossilva.github.io/peoes_pingado/",
-    tecnologias: ["React", "Node.js", "MongoDB"]
-  },
-  {
-    id: 4,
-    titulo: "Exemplo 04",
-    resumo: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imagem: teste,
-    repositorio: "https://github.com/CaioEdimarSantosSilva/Portfolio-React",
-    linkAo: "https://caioedimarsantossilva.github.io/peoes_pingado/",
-    tecnologias: ["React", "Node.js", "MongoDB"]
-  },
-  {
-    id: 5,
-    titulo: "Exemplo 05",
-    resumo: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    imagem: teste,
-    repositorio: "https://github.com/CaioEdimarSantosSilva/Portfolio-React",
-    linkAo: "https://caioedimarsantossilva.github.io/peoes_pingado/",
-    tecnologias: ["React", "Node.js", "MongoDB"]
-  },
+  }
 ];
