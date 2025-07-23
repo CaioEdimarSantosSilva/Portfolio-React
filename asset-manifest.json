@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.5853f083.css",
-    "main.js": "/Portfolio-React/static/js/main.6733b470.js",
-    "static/media/peos_pingado.png": "/Portfolio-React/static/media/peos_pingado.c1963fc28c468af6ca74.png",
+    "main.css": "/Portfolio-React/static/css/main.ea9b5236.css",
+    "main.js": "/Portfolio-React/static/js/main.cbc2d7aa.js",
+    "static/media/peos_pingado.png": "/Portfolio-React/static/media/peos_pingado.360b0f82fdf676392080.png",
     "static/media/banner.png": "/Portfolio-React/static/media/banner.ceda0e3d5f66b7d1060d.png",
     "static/media/RE_assistencia.png": "/Portfolio-React/static/media/RE_assistencia.ea5f0f56b57acb6b0dfe.png",
     "static/media/code_html.png": "/Portfolio-React/static/media/code_html.e9ad7664b9c5a1d8d935.png",
@@ -14,11 +14,11 @@
     "static/media/texto.png": "/Portfolio-React/static/media/texto.37f6ec75d2feeff598b9.png",
     "static/media/simbolo.png": "/Portfolio-React/static/media/simbolo.d793b7effeabf65082b4.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.5853f083.css.map": "/Portfolio-React/static/css/main.5853f083.css.map",
-    "main.6733b470.js.map": "/Portfolio-React/static/js/main.6733b470.js.map"
+    "main.ea9b5236.css.map": "/Portfolio-React/static/css/main.ea9b5236.css.map",
+    "main.cbc2d7aa.js.map": "/Portfolio-React/static/js/main.cbc2d7aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.5853f083.css",
-    "static/js/main.6733b470.js"
+    "static/css/main.ea9b5236.css",
+    "static/js/main.cbc2d7aa.js"
   ]
 }
