@@ -3,7 +3,7 @@
 // Importar as imagens
 import peoes_pingado from '../assets/imagens/fotos/peos_pingado.png';
 import re_assistencia from '../assets/imagens/fotos/RE_assistencia.png';
-import teste from '../assets/imagens/fotos/code_html.png';
+
 
 
 export const projetos = [
